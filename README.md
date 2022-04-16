@@ -1,4 +1,14 @@
 # curly-fortnight
+## purpose 
+A timed quiz that stores the 10 highest scores
+
+## built with
+*HTML
+*CSS
+*Javascript
+
+## contribution
+Sarah King
 
 ## website URL
 https://negativeh0ll0w.github.io/curly-fortnight/
