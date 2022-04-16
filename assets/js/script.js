@@ -74,6 +74,7 @@ function startQuiz() {
     startButton.classList.add("hidden");
     containerDiv.classList.remove("hidden");
     scoreDiv.classList.add("hidden");
+    viewScores.classList.remove("hidden");
 
     shuffledQuestions = questionsArray.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
