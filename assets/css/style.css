@@ -1,0 +1,107 @@
+* {
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.header {
+    text-align:center;
+    background-color:blueviolet;
+    padding: 10px;
+    color:antiquewhite;
+}
+.header h1 {
+    padding: 20px;
+    font-size: 46px;
+    color:aliceblue;
+}
+
+.scores {
+    text-align:center;
+    padding: 30px;
+    border-radius: 20px;
+    border: solid 5px blueviolet;
+    background-color: antiquewhite;
+    color: blueviolet;
+    margin-top: 30px;
+    width: 400px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hiscores {
+    color: #304060;
+    font-size: 18px;
+    padding: 6px;
+    font-weight:normal;
+}
+.hiscores:first-child {
+    padding-top:20px;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.start {
+    text-align:center;
+    width:30%;
+    margin: auto ;
+    margin-top: 20px;
+    color: blueviolet;
+    font-size: 25px;
+}
+.start-btn {
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    color:antiquewhite;
+    font-size: 30px;
+}
+.start-btn:hover {
+    font-weight:bold;
+    color:aliceblue;
+}
+
+.hidden {
+    display:none;
+}
+
+.container {
+    width: 50%;
+    text-align: center;
+}
+
+.question {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.answers {
+    width:50%;
+    text-align: center;
+}
+
+.answer {
+    padding: 5px;
+    margin: 10px;
+    width: 70%;
+    background-color: #b0c0dd;
+}
+.answer:hover {
+    color:blueviolet;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+.footer a {
+    color:blueviolet;
+}
+
+a:hover {
+    font-weight:bold;
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Coding Quiz</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+  <header class="header">
+      <h1>Timed Coding Quiz</h1>
+      <p>Answer the questions as quickly as you can! But be careful, as incorrect answers will deduct 10 seconds from your allotted time.</p>
+  </header>
+
+  <div class="scores hidden" id="scores">
+
+  </div>
+
+  <div class="start" id="timer">
+      <button class="start-btn" id="start-btn">Start Quiz</button>
+    </div>
+
+    <div class="start hidden" id="score-display"></div>
+
+    </br>
+    <div class="container hidden" id="container">
+        <div class="question" id="question">Question</div>
+        <div class="answers" id="answer-btns">
+        </div>
+    </div>
+
+    <div class="footer">
+        <a id="view-scores">View High Scores</a>
+        <br/>
+        <a id="restart" class="hidden">Retake Quiz</a>
+    </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
