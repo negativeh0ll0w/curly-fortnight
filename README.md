@@ -3,9 +3,9 @@
 A timed quiz that stores the 10 highest scores
 
 ## built with
-*HTML
-*CSS
-*Javascript
+* HTML
+* CSS
+* Javascript
 
 ## contribution
 Sarah King
